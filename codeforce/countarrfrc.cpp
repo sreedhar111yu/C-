@@ -1,19 +1,19 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
+
+int main() {
     int size;
-    cin>>size;
+    cin >> size;
     int arr[size];
-    for(int i=0;i<size;i++){
-        cin>>arr[i];
+    for (int i = 0; i < size; i++) {
+        cin >> arr[i];
     }
-    Unordered_map<int,int>mp
-    for(int i=0;i<size;i++){
+    unordered_map<int, int> mp; 
+    for (int i = 0; i < size; i++) {
         mp[arr[i]]++;
     }
-    for (auto& pair : mp) {
+    for (const auto& pair : mp) {
         cout << pair.first << " occurs " << pair.second << " times" << endl;
     }
     return 0;
-    
-    }
+}
