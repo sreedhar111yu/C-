@@ -6,7 +6,7 @@ int majorityele(vector<int> &arr){
     int N = arr[0];
     int count = 1;
 
-    for(int i = 1; i < size; i++) { // Start from index 1
+    for(int i = 1; i < size; i++) { 
         if(arr[i] == N) {
             count++;
         } else {
@@ -14,7 +14,7 @@ int majorityele(vector<int> &arr){
         }
         if(count == 0) {
             N = arr[i];
-            count = 1; // Reset count
+            count = 1; 
         }
     }
     return N;
