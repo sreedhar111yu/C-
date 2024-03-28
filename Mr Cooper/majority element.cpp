@@ -1,0 +1,1 @@
+//OPTIMAL Majority of element in arr
