@@ -4,7 +4,7 @@ using namespace std;
 string palindrom(string input){
      string str="";
     for(char ch:input){
-        if(isalnum(ch)){
+        if(isalnum(ch)){  //remove 
             str += tolower(ch); 
         }
     }
