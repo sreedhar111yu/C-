@@ -17,7 +17,7 @@ bool anagram(string s, string t){
 }
 int main(){
     string s="anagram";
-    string t="nagaram";
+    string t="nagaram40";
     if(anagram(s,t)){
         cout<<"true";
     }
