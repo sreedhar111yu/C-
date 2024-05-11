@@ -1,41 +1,40 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-// class car{
-//     public:
-//     string CarType;
-    
-// };
-void manualcar();
+
+void manualCar();
 void autoCar();
-void CarType();
 
-switch(c){
-    case 1:
-    void manualcar();
-    break;
-
-    case 2:
-    void AutoCar();
-    break;
-}
-
-void manualcar(){
-    cout<<"TurnOn"<<endl;
-    cout<<"TurnOff"<<endl;
-
-}
-void AutoCar(){
-    cout<<"TurnOn"<<endl;
-    cout<<"TurnOff"<<endl;
-
-
-}
-
-int main(){
+int main() {
     int c;
-    cout<<"press 1 to manual Car"<< endl;
-    cout<<"press 2 to Auto Car"<<endl;
+    cout << "Press 1 for manual Car" << endl;
+    cout << "Press 2 for Auto Car" << endl;
+    cout << "Enter your choice: ";
+    cin >> c;
+
     
+    switch (c) {
+        case 1:
+            manualCar();
+            break;
+        case 2:
+            autoCar();
+            break;
+        default:
+            cout << "Invalid choice!" << endl;
+    }
+
+    return 0;
 }
 
+
+void manualCar() {
+    cout << "Manual Car: Turn On" << endl;
+    cout << "Manual Car: Turn Off" << endl;
+}
+
+
+void autoCar() {
+    cout << "Auto Car: Turn On" << endl;
+    cout << "Auto Car: Turn Off" << endl;
+}
