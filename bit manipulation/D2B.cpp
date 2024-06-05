@@ -17,7 +17,7 @@ int main(){
 
      }
      reverse(res.begin(),res.end());
-     cout<<res;
+     cout<<res;//
     
 
 }
