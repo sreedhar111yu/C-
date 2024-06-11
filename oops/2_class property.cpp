@@ -15,4 +15,7 @@ int main(){
     p.name="arun";
     p.intro();
     return 0;
+    HumanBeing q;
+    q.name="hari";
+    q.intro();
 }
