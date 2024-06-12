@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+//left angle triangle
 using namespace std;
 int main(){
     int noOfrow=5;
