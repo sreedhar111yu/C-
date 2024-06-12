@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//
+//Private Access Specifier
 class Human{
     private:
     int age;
