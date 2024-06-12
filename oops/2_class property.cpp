@@ -1,21 +1,23 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-class HumanBeing{
-    public:
+class HumanBeing {
+public:
     string name;
 
-    void intro(){
-        cout<<"hi i'am"<<name;
+    void intro() {
+        cout << "Hi, I am " << name << endl;
     }
 };
 
-int main(){
+int main() {
     HumanBeing p;
-    p.name="arun";
+    p.name = "arun";
     p.intro();
-    return 0;
+    
     HumanBeing q;
-    q.name="hari";
+    q.name = "hari";
     q.intro();
+    
+    return 0;
 }
