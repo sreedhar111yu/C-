@@ -16,9 +16,9 @@ void bfs(vector<vector<int>>&arr,int startnode){
                 q.push(arr[Currentnode][i]);
                 visited[arr[Currentnode][i]]=true;
             }
-        }  
+        }
     }
-   
+
 }
 int main() {
     
