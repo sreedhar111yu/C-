@@ -12,3 +12,15 @@ int main(){
         cout<<"not a leap year";
     }
 }
+
+// missing number in array
+//equlibrium point
+// teaping rain water
+//chochlate distribution
+//buy and sell
+//laregest no found in array
+//longest disnict char
+//implement CTOI
+//congest common prefix
+//nth node 
+//kth node linked list at end 
