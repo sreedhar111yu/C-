@@ -7,15 +7,17 @@ int main(){
     
 
     for(int i=0;i<=size;i++){
-        for(char ch='A';ch<='A'+size-i-1;ch++){
+        char ch='A'+i;
+        for(int j=0;j<=i;j++){
             cout<<ch<<" ";
         }
         cout<<endl;
     }
 }
 
-// A B C D E 
-// A B C D 
-// A B C 
-// A B 
 // A
+// B B
+// C C C
+// D D D D
+// E E E E E
+// F F F F F F
