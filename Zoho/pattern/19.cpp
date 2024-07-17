@@ -7,16 +7,9 @@ int main(){
     
 
     for(int i=0;i<=size;i++){
-        for(char ch='A';ch<='A'+i;ch++){
+        for(char ch='A';ch<='A'+size-i-1;ch++){
             cout<<ch<<" ";
         }
         cout<<endl;
     }
 }
-
-// A 
-// A B 
-// A B C 
-// A B C D 
-// A B C D E
-// A B C D E F
