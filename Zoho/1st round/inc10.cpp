@@ -8,7 +8,5 @@ int main(){
         cout<<(a+" "+b);
 
     }
-    else{
-        cout<<"no";
-    }
+   
 }
