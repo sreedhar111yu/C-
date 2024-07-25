@@ -1,3 +1,4 @@
+//lower  triangular matrix or not cpp
 #include<bits/stdc++.h>
 using namespace std;
 #define N 4
