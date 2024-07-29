@@ -2,7 +2,7 @@
 using namespace std;
 
 void f(int n) {
-    // Base case to stop recursion
+    
     if (n <=50 ) {
         cout<<n<<" ";
         f(n + 1);
