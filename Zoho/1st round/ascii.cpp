@@ -8,4 +8,5 @@ int main (){
     int sum=a+b+c;
     
      cout<<sum<<endl<<n;
+     //
 }
